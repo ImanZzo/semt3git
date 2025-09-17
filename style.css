@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f8f8;
+  color: #333;
+  
+}
+
+.hero {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUv1dX-Dt2dvsg7Gj556c-7stG_HG4MjV7JA&s");
+    height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  color: white;
+  padding: 0 20px;
+  position: relative;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.5);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero button {
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  background: white;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.hero button:hover {
+  background: #444;
+  color: white;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 60px 20px;
+  background: white;
+}
+
+.feature-box {
+  width: 30%;
+}
+
+.feature-box img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+.feature-box h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.feature-box p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #555;
+}
