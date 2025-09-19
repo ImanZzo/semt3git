@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <title>Iframe nümunəsi</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f4f4f4;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    a {
+      text-decoration: none;
+      margin: 0 15px;
+      padding: 8px 15px;
+      background-color: #007BFF;
+      color: white;
+      border-radius: 5px;
+      transition:  0.3s;
+    }
+
+    a:hover {
+      background-color: #0056b3;
+    }
+
+    iframe {
+      margin-top: 20px;
+      border: 2px solid #007BFF;
+      border-radius: 10px;
+      width: 650px;
+      height: 400px;
+      background-color: white;
+    }
+  </style>
+</head>
+<body>
+  <h2>Markanı seç:</h2>
+
+  <a href="hp.html" target="myFrame">HP səhifəsi</a>
+  <a href="dell.html" target="myFrame">Dell səhifəsi</a>
+
+  <br><br>
+
+  <!-- iframe hissəsi -->
+  <iframe src="" name="myFrame"></iframe>
+</body>
+</html>
