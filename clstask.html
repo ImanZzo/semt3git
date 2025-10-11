@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+
+        <fieldset>
+            <legend>Text and Pattern Inputs</legend>
+            <label for="username">Only letters:</label>
+            <input type="text" id="username" pattern="[A-Za-z]+" placeholder="only letters"><br><br>
+
+            <label for="readonly">Readonly:</label>
+            <input type="text" id="readonly" value="Can't be changed" readonly><br><br>
+
+            <label for="minlength">Minlength:</label>
+            <input type="text" id="minlength" minlength="3" placeholder="Minimum 3 simvol"><br><br>
+
+            <label for="maxlength">Maxlength:</label>
+            <input type="text" id="maxlength" maxlength="6" placeholder="Maksimum 6 simvol"><br><br>
+
+            <label for="disabled">Disabled:</label>
+            <input type="text" id="disabled" value="İstifadə edilə bilməz" disabled><br><br>
+
+            <label for="placeholder">Placeholder:</label>
+            <input type="email" id="placeholder" placeholder="example@mail.com"><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Numbers and Ranges</legend>
+            <label for="number">Number (10–100 step 5):</label>
+            <input type="number" id="number" min="10" max="100" step="5" placeholder="Number 10-100"><br><br>
+
+            <label for="range">Range (0–1000):</label>
+            <input type="range" id="range" min="0" max="1000"><br><br>
+
+            <label for="min">Min:</label>
+            <input type="number" id="min" min="10"><br><br>
+
+            <label for="max">Max:</label>
+            <input type="number" id="max" max="100"><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact and Search</legend>
+            <label for="email">Email (required):</label>
+            <input type="email" id="email" placeholder="enter your email" required><br><br>
+
+            <label for="tel">Telephone:</label>
+            <input type="tel" id="tel" placeholder="+994 ..."><br><br>
+
+            <label for="search">Search:</label>
+            <input type="search" id="search" placeholder="Axtar"><br><br>
+
+            <label for="url">Website:</label>
+            <input type="url" id="url" placeholder="https://example.com"><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Options and Choices</legend>
+            <label for="checkbox">Checkbox (checked):</label>
+            <input type="checkbox" id="checkbox" checked><br><br>
+
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+            <label for="country">Country:</label>
+            <select name="country" id="country">
+                <option value="Azerbaijan">Azerbaijan</option>
+                <option value="Turkey">Turkey</option>
+                <option value="Iran">Iran</option>
+            </select><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>File and Media</legend>
+            <label for="file">File Upload:</label>
+            <input type="file" id="file"><br><br>
+
+            <label for="image">Image Button:</label>
+            <input type="image" id="image" src="example.png" alt="Submit Image"><br><br>
+
+            <label for="hidden">Hidden Input:</label>
+            <input type="hidden" id="hidden" value="unknown"><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Date and Time Inputs</legend>
+            <label for="date">Date:</label>
+            <input type="date" id="date"><br><br>
+
+            <label for="time">Time:</label>
+            <input type="time" id="time"><br><br>
+
+            <label for="month">Month:</label>
+            <input type="month" id="month"><br><br>
+
+            <label for="week">Week:</label>
+            <input type="week" id="week"><br><br>
+
+            <label for="datetime">Date and Time (local):</label>
+            <input type="datetime-local" id="datetime"><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Security and Color</legend>
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter your password"><br><br>
+
+            <label for="color">Pick a color:</label>
+            <input type="color" id="color"><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Buttons</legend>
+            <input type="reset" value="Reset Form"><br><br>
+            <button type="submit">Submit</button>
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
