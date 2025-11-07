@@ -1,0 +1,97 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #fff;
+    color: #222;
+}
+
+.top-banner {
+    background-color: #e63946;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.top-banner a {
+    color: #fff;
+    text-decoration: underline;
+    margin-left: 5px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+nav a {
+    margin-right: 20px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.shop-btn {
+    background-color: #e63946;
+    color: #fff !important;
+    padding: 6px 14px;
+    border-radius: 4px;
+}
+
+input[type="text"] {
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.login-btn {
+    background-color: #e63946;
+    border: none;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 4px;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+
+.text-content {
+    width: 50%;
+}
+
+.text-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.image-content img {
+    width: 400px;
+    border-radius: 8px;
+}
+
+/* Attribute selector usage */
+a[href="#"] {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+a[href="#"]:hover {
+    color: #e63946;
+}
