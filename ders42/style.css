@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: #222;
+    background: #f9f9f9;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo img {
+    width: 32px;
+    height: 32px;
+}
+
+.logo span {
+    font-weight: 600;
+    font-size: 20px;
+    color: #007bff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+.appointment-btn {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #e9f1ff;
+    padding: 80px 100px;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.hero-text p {
+    color: #555;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.btn {
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 4px;
+}
+
+.hero-img {
+    width: 45%;
+    text-align: right;
+}
+
+.hero-img img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+    padding: 50px 0;
+}
+
+.info-box {
+    background: #e9f1ff;
+    width: 28%;
+    padding: 30px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.info-box .icon {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.info-box h3 {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #007bff;
+}
+
+.info-box p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+    color: #007bff;
+    border: 1px solid #007bff;
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.link:hover {
+    background: #007bff;
+    color: #fff;
+}
