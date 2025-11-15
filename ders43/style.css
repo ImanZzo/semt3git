@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.top-bar {
+    width: 100%;
+    background: #fff;
+    padding: 15px 40px;
+    overflow: hidden;
+}
+
+.logo-area {
+    float: left;
+}
+
+.logo-area img {
+    width: 32px;
+    vertical-align: middle;
+}
+
+.logo-area span {
+    font-weight: bold;
+    margin-left: 8px;
+    color: #007bff;
+}
+
+.menu {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    float: left;
+    margin-left: 25px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+}
+
+.hero {
+    background: #eef3fa;
+    padding: 60px 40px;
+    overflow: hidden;
+}
+
+.hero-img {
+    float: left;
+    width: 50%;
+}
+
+.hero-img img {
+    width: 100%;
+    max-width: 450px;
+}
+
+.hero-text {
+    float: left;
+    width: 50%;
+    padding-top: 60px;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.color-tabs {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.tab {
+    float: left;
+    width: calc(100% / 6);
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
+
+.navy {
+    background: #0f3d63;
+}
+
+.teal {
+    background: #1fbfd9;
+}
+
+.red {
+    background: #c63b32;
+}
+
+.orange {
+    background: #d96f17;
+}
+
+.yellow {
+    background: #e6ae1c;
+}
+
+.gold {
+    background: #dfc24c;
+}
+
+.course-title {
+    text-align: center;
+    margin-top: 60px;
+    font-weight: normal;
+}
+
+.course-boxes {
+    width: 100%;
+    padding: 30px 40px;
+    overflow: hidden;
+}
+
+.course-card {
+    width: 31%;
+    float: left;
+    margin-right: 3.5%;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 0 0 20px 0;
+}
+
+.course-card:last-child {
+    margin-right: 0;
+}
+
+.course-card img {
+    width: 100%;
+    border-radius: 6px 6px 0 0;
+}
+
+.course-card h3 {
+    font-size: 18px;
+    margin: 15px 15px 10px;
+}
+
+.course-card p {
+    font-size: 14px;
+    color: #444;
+    margin: 0 15px 15px;
+}
+
+.card-footer {
+    margin: 0 15px;
+    font-size: 13px;
+    color: #777;
+}
